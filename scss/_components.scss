@@ -1,0 +1,44 @@
+
+body{
+    background: salmon;
+    margin: 3rem auto;
+}
+
+.wrapper{
+    padding: 5rem;
+    
+}
+
+.fill{
+
+    width: 29rem;
+    height: 29rem;
+    background: white;
+    cursor: pointer;
+    background-image: url(https://picsum.photos/200/200);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.empty{
+    display: inline-block;
+    width: 29rem;
+    height: 29rem;
+    background: white;
+    margin: .5rem;
+
+}
+
+.hoverRed{
+    background: #f4f4f4;
+    border: dashed #ff6600;
+}
+
+.hold{
+    border: .3rem dashed green;
+}
+
+.invisible{
+    display: none;
+}
+

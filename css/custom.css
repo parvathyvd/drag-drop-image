@@ -1,0 +1,125 @@
+*, ::after, ::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+/********************12 column layout implimentaion*************/
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.col-12 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100% / 12 *12);
+  flex: 0 0 calc(100% / 12 *12); }
+
+.col-11 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100%/ 12 * 11);
+  flex: 0 0 calc(100%/ 12 * 11); }
+
+.col-1 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100%/ 12 * 1);
+  flex: 0 0 calc(100%/ 12 * 1); }
+
+.col-10 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100%/ 12* 10);
+  flex: 0 0 calc(100%/ 12* 10); }
+
+.col-2 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100%/ 12 * 2);
+  flex: 0 0 calc(100%/ 12 * 2); }
+
+.col-9 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100%/ 12* 9);
+  flex: 0 0 calc(100%/ 12* 9); }
+
+.col-3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100%/ 12 * 3);
+  flex: 0 0 calc(100%/ 12 * 3); }
+
+.col-8 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100%/ 12* 8);
+  flex: 0 0 calc(100%/ 12* 8); }
+
+.col-4 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100%/ 12 * 4);
+  flex: 0 0 calc(100%/ 12 * 4); }
+
+.col-7 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100%/ 12* 7);
+  flex: 0 0 calc(100%/ 12* 7); }
+
+.col-5 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100%/ 12 * 5);
+  flex: 0 0 calc(100%/ 12 * 5); }
+
+.col-6 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100%/ 12* 6);
+  flex: 0 0 calc(100%/ 12* 6); }
+
+body {
+  background: salmon;
+  margin: 3rem auto; }
+
+.wrapper {
+  padding: 5rem; }
+
+.fill {
+  width: 29rem;
+  height: 29rem;
+  background: white;
+  cursor: pointer;
+  background-image: url(https://picsum.photos/200/200);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.empty {
+  display: inline-block;
+  width: 29rem;
+  height: 29rem;
+  background: white;
+  margin: .5rem; }
+
+.hoverRed {
+  background: #f4f4f4;
+  border: dashed #ff6600; }
+
+.hold {
+  border: .3rem dashed green; }
+
+.invisible {
+  display: none; }
+
+html {
+  /* Setting font-size to 62.5% allows 1rem to be 10px */
+  font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 40%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
